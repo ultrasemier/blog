@@ -9,7 +9,7 @@
 <span>|
 <i class="fa fa-file-word-o fa-fw"></i>
 <span class=post-meta-item-text>字数：</span>
-<span class=leancloud-world-count>193 字</span></span>
+<span class=leancloud-world-count>66 字</span></span>
 <span>|
 <i class="fa fa-eye fa-fw"></i>
 <span class=post-meta-item-text>阅读：</span>
@@ -17,20 +17,11 @@
 <span id=/blog/post/-%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84/ class=leancloud_visitors data-flag-title=博客架构>|
 <i class="fa fa-binoculars fa-fw"></i>
 <span class=post-meta-item-text>阅读次数：</span>
-<span class=leancloud-visitors-count></span></span></div></header><div class=post-body itemprop=articleBody><h2 id=我的博客架构>我的博客架构</h2><div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>subgraph 分情况
-</span></span><span style=display:flex><span>A(开始)--&gt;B{判断}
+<span class=leancloud-visitors-count></span></span></div></header><div class=post-body itemprop=articleBody><h2 id=我的博客架构>我的博客架构</h2><div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>graph LR
+</span></span><span style=display:flex><span>subgraph TB CI/CD
+</span></span><span style=display:flex><span>A(编译)--&gt;B(提交Pubic到github)
 </span></span><span style=display:flex><span>end
-</span></span><span style=display:flex><span>B--第一种情况--&gt;C[第一种方案]
-</span></span><span style=display:flex><span>B--第二种情况--&gt;D[第二种方案]
-</span></span><span style=display:flex><span>B--第三种情况--&gt;F{第三种方案}
-</span></span><span style=display:flex><span>subgraph 分种类
-</span></span><span style=display:flex><span>F-.第1个.-&gt;J((测试圆形))
-</span></span><span style=display:flex><span>F-.第2个.-&gt;H&gt;右向旗帜形]
-</span></span><span style=display:flex><span>end
-</span></span><span style=display:flex><span>H---I(测试完毕)
-</span></span><span style=display:flex><span>C--票数100---I(测试完毕)
-</span></span><span style=display:flex><span>D---I(测试完毕)
-</span></span><span style=display:flex><span>J---I(测试完毕)
+</span></span><span style=display:flex><span>src(源码) --&gt; gitlab(内部gitlab) --&gt; A
 </span></span></code></pre></div></div><footer class=post-footer><div class=post-tags><a href=/blog/tags/%e5%8d%9a%e5%ae%a2 rel=tag title=博客>#博客#</a>
 <a href=/blog/tags/hugu rel=tag title=hugu>#hugu#</a></div><div class=addthis_inline_share_toolbox></div><div class=post-nav><div class=article-copyright><div class=article-copyright-img><img src=/img/qq_qrcode.png width=129px height=129px><div style=text-align:center>QQ扫一扫交流</div></div><div class=article-copyright-info><p><span>声明：</span>博客架构</p><p><span>链接：</span>https://ultrasemier.github.io/blog/post/-%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84/</p><p><span>作者：</span>csliu</p><p><span>声明： </span>本博客文章除特别声明外，均采用 <a href=https://creativecommons.org/licenses/by-nc-sa/3.0/ target=_blank style=text-decoration:underline>CC BY-NC-SA 3.0</a>许可协议，转载请注明出处！</p></div></div><div class=clear></div></div><div class=reward-qr-info><div>创作实属不易，如有帮助，那就打赏博主些许茶钱吧 ^_^</div><button id=rewardButton disable=enable onclick='var qr=document.getElementById("QR");qr.style.display==="none"?qr.style.display="block":qr.style.display="none"'>
 <span>赏</span></button><div id=QR style=display:none><div id=wechat style=display:inline-block><img id=wechat_qr src=/img/wechat-pay.png alt="WeChat Pay"><p>微信打赏</p></div><div id=alipay style=display:inline-block><img id=alipay_qr src=/img/ali-pay.png alt=Alipay><p>支付宝打赏</p></div></div></div><div class=post-nav><div class="post-nav-next post-nav-item"></div><div class="post-nav-prev post-nav-item"></div></div><div id=wcomments></div></footer></article></section></div></div><div class=sidebar-toggle><div class=sidebar-toggle-line-wrap><span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
