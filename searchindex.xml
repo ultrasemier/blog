@@ -3,7 +3,7 @@ Hugo使用了多种开源项目，包括:
 https://github.com/yuin/goldmark https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Hugo是博客、企业网站、创意作品集、在线杂志、单页应用程序甚至是数千页的网站的理想选择。
 Hugo适合那些想要手工编写自己的网站代码，而不用担心设置复杂的运行时、依赖关系和数据库的人。
 使用Hugo建立的网站非常快速、安全，可以部署在任何地方，包括AWS、GitHub Pages、Heroku、Netlify和任何其他托管提供商。
-更多信息请访问GitHub .</content></entry><entry><title/><url>https://ultrasemier.github.io/blog/mdstudy/</url><categories/><tags/><content type="html"> MD 学习 这是一个三级标题 这是一个四级标题 这是正文文字
+更多信息请访问GitHub .</content></entry><entry><title/><url>https://ultrasemier.github.io/blog/post/mdstudy/</url><categories/><tags/><content type="html"> MD 学习 这是一个三级标题 这是一个四级标题 这是正文文字
 这是正文文字
 斜体文本
 斜体文本

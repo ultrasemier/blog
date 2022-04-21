@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 优森美</title><link>https://ultrasemier.github.io/blog/</link><description>Recent content in Home on 优森美</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ultrasemier.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>博客架构</title><link>https://ultrasemier.github.io/blog/post/-%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://ultrasemier.github.io/blog/post/-%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84/</guid><description>我的博客架构 graph LR subgraph TB CI/CD A(编译)--&amp;gt;B(提交Pubic到github) end src(源码) --&amp;gt; gitlab(内部gitlab) --&amp;gt; A</description></item><item><title>关于我</title><link>https://ultrasemier.github.io/blog/about.html</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://ultrasemier.github.io/blog/about.html</guid><description>Hugo是用Go编写的一个开放源代码静态站点生成器，可在Apache许可证2.0 下使用。 Hugo支持TOML, YAML和JSON数据文件类型</description></item><item><title/><link>https://ultrasemier.github.io/blog/mdstudy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ultrasemier.github.io/blog/mdstudy/</guid><description>MD 学习 这是一个三级标题 这是一个四级标题 这是正文文字
-这是正文文字
-斜体文本
-斜体文本
-粗体文本
-粗体文本
-粗斜体文本
-粗斜体文本
-这是正文文字
-这是正文文字
-这是正文文字
-这是正文文字
-printf() 函数
-#这是一段代码 uint32_t val; val = 100; val ++ 第一项 第二项 第三项 第一项 第二项 第三项 第一项 第二项 第三项 区块引用
-菜鸟教程
-学的不仅是技术更是梦想
-这是一个链接 菜鸟教程 左对齐 右对齐 居中对齐 单元格 单元格 单元格 单元格 单元格 单元格 st=&amp;gt;start: 开始框 op=&amp;gt;operation: 处理框 cond=&amp;gt;condition: 判断框(是或否?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on 优森美</title><link>https://ultrasemier.github.io/blog/</link><description>Recent content in Home on 优森美</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 20 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ultrasemier.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>博客架构</title><link>https://ultrasemier.github.io/blog/post/-%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84/</link><pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate><guid>https://ultrasemier.github.io/blog/post/-%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84/</guid><description>我的博客架构 graph LR subgraph TB CI/CD A(编译)--&amp;gt;B(提交Pubic到github) end src(源码) --&amp;gt; gitlab(内部gitlab) --&amp;gt; A</description></item><item><title>关于我</title><link>https://ultrasemier.github.io/blog/about.html</link><pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate><guid>https://ultrasemier.github.io/blog/about.html</guid><description>Hugo是用Go编写的一个开放源代码静态站点生成器，可在Apache许可证2.0 下使用。 Hugo支持TOML, YAML和JSON数据文件类型</description></item><item><title/><link>https://ultrasemier.github.io/blog/post/mdstudy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ultrasemier.github.io/blog/post/mdstudy/</guid><description>MD 学习 这是一个三级标题 这是一个四级标题 这是正文文字 这是正文文字 斜体文本 斜体文本 粗体文本 粗体文本 粗斜体文本 粗斜体文本 这是正文文字 这是正文文字 这</description></item></channel></rss>
